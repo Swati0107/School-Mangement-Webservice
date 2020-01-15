@@ -1,0 +1,18 @@
+{% if data %}
+<table>
+    <tr>
+        <th>Teacher</th>
+        <th>Total Students</th>
+        <th>Total Salary</th>
+    </tr>
+    {% for item in data %}
+    <tr> 
+        <td>{{ item.teacher }}</td>
+        <td>{{ item.total_student }}</td>
+        <td>{{ item.total_salary }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+    <p>No data found.</p>
+{% endif %}

@@ -1,0 +1,20 @@
+{% if data %}
+<table>
+    <tr>
+        <th>Teacher</th>
+        <th>Student</th>
+        <th>Hours Required</th>
+
+    </tr>
+    {% for item in data %}
+    <tr> 
+        <td>{{ item['subcount'] }}</td>
+        <td>{{ item['studcount'] }}</td>
+        <td>{{ item['timecount'] }}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+    <p>No data found.</p>
+{% endif %}

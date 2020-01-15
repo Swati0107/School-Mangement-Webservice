@@ -1,0 +1,22 @@
+{% if data %}
+<table>
+    <tr>
+        <th>ClassName</th>
+        <th>Seating Capacity</th>
+        <th>Web Support</th>
+        <th>Shape</th>
+
+    </tr>
+    {% for item in data %}
+    <tr> 
+        <td>{{ item.name }}</td>
+        <td>{{ item.seating_capacity }}</td>
+        <td>{{ item.web_lec_support }}</td>
+        <td>{{ item.shape }}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+    <p>No data found.</p>
+{% endif %}

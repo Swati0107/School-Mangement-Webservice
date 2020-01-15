@@ -1,0 +1,22 @@
+{% if data %}
+<table>
+    <tr>
+        <th>TeacherName</th>
+        <th>DOJ</th>
+        <th>Salary</th>
+        <th>Subject id</th>
+
+    </tr>
+    {% for item in data %}
+    <tr> 
+        <td>{{ item.name }}</td>
+        <td>{{ item.doj }}</td>
+        <td>{{ item.salary }}</td>
+        <td>{{ item.subject}}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+    <p>No data found.</p>
+{% endif %}

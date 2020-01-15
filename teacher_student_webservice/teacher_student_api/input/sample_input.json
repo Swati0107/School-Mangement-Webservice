@@ -1,0 +1,95 @@
+{
+    "teacher_details": [
+      {
+        "name": "Turing",
+        "doj": "22 Aug 2017",
+        "subjects": [
+          "Math",
+          "English"
+        ],
+        "salary": 18,
+        "is_web_lec": true
+      },
+      {
+        "name": "Dinho",
+        "doj": "1 Jan 2016",
+        "subjects": [
+          "Sports",
+          "Health Science"
+        ],
+        "salary": 25,
+        "is_web_lec": false
+      },
+      {
+        "name": "Adele",
+        "doj": "1 Mar 2015",
+        "subjects": [
+          "English",
+          "Health Science"
+        ],
+        "salary": 10,
+        "is_web_lec": false
+      },
+      {
+        "name": "Freddie",
+        "doj": "1 Aug 2017",
+        "subjects": [
+          "English",
+          "Music"
+        ],
+        "salary": 20,
+        "is_web_lec": true
+      },
+      {
+        "name": "Dalton",
+        "doj": "1 Mar 2017",
+        "subjects": [
+          "Botany",
+          "Zoology"
+        ],
+        "salary": 9,
+        "is_web_lec": true
+      },
+      {
+        "name": "Harish",
+        "doj": "1 Feb 2017",
+        "subjects": [
+          "Math",
+          "Science"
+        ],
+        "salary": 18,
+        "is_web_lec": false
+      },
+      {
+        "name": "Trump",
+        "doj": "1 Aug 2017",
+        "subjects": [
+          "Political Science",
+          "Business Administration",
+          "Foreign Affairs"
+        ],
+        "salary": 8,
+        "is_web_lec": false
+      },
+      {
+        "name": "Swaraj",
+        "doj": "1 Sept 2019",
+        "subjects": [
+          "Foreign Affairs",
+          "Negotiations"
+        ],
+        "salary": 28,
+        "is_web_lec": true
+      },
+      {
+        "name": "Socrates",
+        "doj": "1 June 2015",
+        "subjects": [
+          "Philosophy",
+          "Moral Science"
+        ],
+        "salary": 11.5,
+        "is_web_lec": true
+      }
+    ]
+  }

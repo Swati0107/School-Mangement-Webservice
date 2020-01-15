@@ -1,0 +1,20 @@
+{% if data %}
+<table>
+    <tr>
+        <th>SubjectName</th>
+        <th>Chapters</th>
+        <th>Total Duration</th>
+
+    </tr>
+    {% for item in data %}
+    <tr> 
+        <td>{{ item.name }}</td>
+        <td>{{ item.chapters }}</td>
+        <td>{{ item.total_durations }}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+    <p>No data found.</p>
+{% endif %}

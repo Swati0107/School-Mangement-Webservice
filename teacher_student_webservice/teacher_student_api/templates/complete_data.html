@@ -1,0 +1,18 @@
+{% if data %}
+<table>
+    <tr>
+        <th>Classroom</th>
+        <th>Subject</th>
+        <th>Teacher</th>
+    </tr>
+    {% for item in data %}
+    <tr> 
+        <td>{{ item.class_room__name }}</td>
+        <td>{{ item.subject__name }}</td>
+        <td>{{ item.teacher__name }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+    <p>No data found.</p>
+{% endif %}
